@@ -17,7 +17,9 @@ export const Navbar = () => {
       <Link to="/QualityControl" className="NavMenuQualityControl">
         Quality Control
       </Link>
-      <Link className="NavMenuContactUs">Contact Us</Link>
+      <Link to="/ContactUs" className="NavMenuContactUs">
+        Contact Us
+      </Link>
     </div>
   );
 };
