@@ -5,7 +5,6 @@ import { Navbar } from "./Navbar";
 export const QualityControl = () => {
   return (
     <div>
-      <Navbar />
       <h2>Quality Control</h2>
       <div>
         We are committed to meeting the expectations of our customers all of the time by teamwork, innovation and
