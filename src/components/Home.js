@@ -3,7 +3,8 @@ import React, { useState } from "react";
 
 export const Home = () => {
   return (
-    <div className="HomeContainer">
+    <div className="homeContainer">
+      <img src="HomePageMainImage.jpeg"></img>
       <h2>Welcome to MNC Precision</h2>
       <div>
         MNC Precision is an established manufacturer of precision-made parts. We serve many industries including but not
