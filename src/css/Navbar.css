@@ -1,0 +1,20 @@
+.navMenu {
+  overflow: hidden;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin: 10px 0px 0px 0px;
+  border-color: rgb(150, 147, 147);
+  font-family: Didot, serif;
+}
+
+.navMenuListItem {
+  display: inline-block;
+  color: black;
+}
+.navMenu a {
+  float: none;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
