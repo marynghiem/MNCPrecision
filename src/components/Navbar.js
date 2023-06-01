@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
   return (
     <div className="header">
+      <img src="mncprecisionlogo.png" />
       <div className="navMenu">
-        <img src="mncprecisionlogo.png" />
         <div className="navMenuListItem">
           <a href="/" className="navMenuHome">
             Home
