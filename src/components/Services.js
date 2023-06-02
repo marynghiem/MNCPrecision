@@ -13,6 +13,14 @@ export const Services = () => {
         <li>DOD</li>
         <li>Aerospace Oil & Gas Hardware Commercial</li>
       </ul>
+      <div className="serviceImages">
+        <img src="services1.jpeg" />
+        <img src="services2.jpeg" />
+        <img src="services3.jpeg" />
+        <img src="services4.jpeg" />
+        <img src="services5.jpeg" />
+        <img src="services6.jpeg" />
+      </div>
     </div>
   );
 };
