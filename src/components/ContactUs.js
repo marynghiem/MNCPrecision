@@ -2,6 +2,15 @@ import "../css/ContactUs.css";
 import React, { useState } from "react";
 
 export const ContactUs = () => {
+  const [name, setName] = useState("");
+  const [emails, setEmails] = useState([]);
+  const [address, setAddress] = useState([]);
+  const [phone, setPhone] = useState([]);
+
+  const onNameChange = (event) => {
+    setName(event.target.value);
+  };
+
   return (
     <div className="contactUsContainer">
       <div className="contactInformationTitle">Contact</div>
@@ -12,6 +21,15 @@ export const ContactUs = () => {
       <div className="contactFormTitle">Contact Form</div>
       <div className="contactFormContainer">
         <div className="contactFormNameLabel">Name:</div>
+        <input
+          type="text"
+          className="nameInput"
+          placeholder="Name"
+          maxLength="20"
+          onChange={onNameChange}
+          value={name}
+        ></input>
+
         <div className="contactFormInput"></div>
         <div className="contactFormEmailLabel">Email:</div>
         <div className="contactFormInput"></div>

@@ -14,12 +14,12 @@ export const Services = () => {
         <li>Aerospace Oil & Gas Hardware Commercial</li>
       </ul>
       <div className="serviceImages">
-        <img src="services1.jpeg" />
-        <img src="services2.jpeg" />
-        <img src="services3.jpeg" />
-        <img src="services4.jpeg" />
-        <img src="services5.jpeg" />
-        <img src="services6.jpeg" />
+        <img src="services1.jpeg" alt="" />
+        <img src="services2.jpeg" alt="" />
+        <img src="services3.jpeg" alt="" />
+        <img src="services4.jpeg" alt="" />
+        <img src="services5.jpeg" alt="" />
+        <img src="services6.jpeg" alt="" />
       </div>
     </div>
   );
