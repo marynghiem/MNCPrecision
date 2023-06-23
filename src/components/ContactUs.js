@@ -3,12 +3,16 @@ import React, { useState } from "react";
 
 export const ContactUs = () => {
   const [name, setName] = useState("");
-  const [emails, setEmails] = useState([]);
+  const [email, setEmail] = useState([]);
   const [address, setAddress] = useState([]);
   const [phone, setPhone] = useState([]);
 
   const onNameChange = (event) => {
     setName(event.target.value);
+  };
+
+  const onEmailChange = (event) => {
+    setEmail(event.target.value);
   };
 
   return (
@@ -31,6 +35,14 @@ export const ContactUs = () => {
         ></input>
 
         <div className="contactFormInput"></div>
+        <input
+          type="text"
+          className="nameInput"
+          placeholder="Name"
+          maxLength="20"
+          onChange={onEmailChange}
+          value={email}
+        ></input>
         <div className="contactFormEmailLabel">Email:</div>
         <div className="contactFormInput"></div>
         <div className="contactFormAddressLabel">Address:</div>
