@@ -3,9 +3,10 @@ import React, { useState } from "react";
 
 export const ContactUs = () => {
   const [name, setName] = useState("");
-  const [email, setEmail] = useState([]);
-  const [address, setAddress] = useState([]);
-  const [phone, setPhone] = useState([]);
+  const [email, setEmail] = useState("");
+  const [address, setAddress] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
 
   const onNameChange = (event) => {
     setName(event.target.value);
@@ -13,6 +14,17 @@ export const ContactUs = () => {
 
   const onEmailChange = (event) => {
     setEmail(event.target.value);
+  };
+
+  const onAddressChange = (event) => {
+    setAddress(event.target.value);
+  };
+
+  const onPhoneChange = (event) => {
+    setPhone(event.target.value);
+  };
+  const onMessageChange = (event) => {
+    setMessage(event.target.value);
   };
 
   return (
@@ -34,7 +46,7 @@ export const ContactUs = () => {
           value={name}
         ></input>
 
-        <div className="contactFormInput"></div>
+        <div className="contactFormEmailLabel">Email:</div>
         <input
           type="text"
           className="nameInput"
@@ -43,14 +55,37 @@ export const ContactUs = () => {
           onChange={onEmailChange}
           value={email}
         ></input>
-        <div className="contactFormEmailLabel">Email:</div>
-        <div className="contactFormInput"></div>
+
         <div className="contactFormAddressLabel">Address:</div>
-        <div className="contactFormInput"></div>
+        <input
+          type="text"
+          className="nameInput"
+          placeholder="Name"
+          maxLength="20"
+          onChange={onAddressChange}
+          value={address}
+        ></input>
+
         <div className="contactFormPhoneLabel">Phone:</div>
-        <div className="contactFormInput"></div>
+        <input
+          type="text"
+          className="nameInput"
+          placeholder="Name"
+          maxLength="20"
+          onChange={onPhoneChange}
+          value={phone}
+        ></input>
         <div className="contactFormMessageLabel">Message:</div>
+        <input
+          type="text"
+          className="nameInput"
+          placeholder="Name"
+          maxLength="20"
+          onChange={onMessageChange}
+          value={message}
+        ></input>
       </div>
+      <button className="contactSubmitButton">Submit</button>
     </div>
   );
 };
