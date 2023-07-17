@@ -29,10 +29,13 @@ export const ContactUs = () => {
 
   return (
     <div className="contactUsContainer">
-      <div className="contactInformationTitle">Contact</div>
+      <h1 className="contactInformationTitle">Contact</h1>
       <div className="contactInformation">
-        1020 Commercial St., Suite #104A San Jose Ca 95112 (map & directions) Office : (408) 437-9034 Fax: (408)
-        437-3934 Cell: (408) 966-5282 Email: info@mncprecision.com
+        <p>1020 Commercial St., Suite #104A San Jose Ca 95112 (map & directions)</p>
+        <p>Office : (408) 437-9034</p>
+        <p>Fax: (408) 437-3934</p>
+        <p>Cell: (408) 966-5282</p>
+        <p>Email: info@mncprecision.com</p>
       </div>
       <div className="contactFormTitle">Contact Form</div>
       <div className="contactFormContainer">
