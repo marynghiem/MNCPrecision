@@ -37,7 +37,7 @@ export const ContactUs = () => {
         <p>Cell: (408) 966-5282</p>
         <p>Email: info@mncprecision.com</p>
       </div>
-      <div className="contactFormTitle">Contact Form</div>
+      <h1 className="contactFormTitle">Contact Form</h1>
       <div className="contactFormContainer">
         <div className="contactFormNameLabel">Name:</div>
         <input
@@ -87,8 +87,8 @@ export const ContactUs = () => {
           onChange={onMessageChange}
           value={message}
         ></input>
+        <div className="contactSubmitButton">Submit</div>
       </div>
-      <button className="contactSubmitButton">Submit</button>
     </div>
   );
 };
