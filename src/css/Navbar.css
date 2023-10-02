@@ -1,3 +1,8 @@
+.company_logo {
+  height: 90px;
+  width: auto;
+}
+
 .navMenu {
   overflow: hidden;
   border-top: 1px solid;
@@ -5,11 +10,11 @@
   margin: 10px 0px 0px 0px;
   border-color: rgb(150, 147, 147);
   font-family: Didot, serif;
+  background-color: black;
 }
 
 .navMenuListItem {
   display: inline-block;
-  color: black;
 }
 .navMenu a {
   float: none;
@@ -17,9 +22,9 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  color: white;
 }
 
 .navMenu a:hover {
-  background-color: #ddd;
-  color: black;
+  color: grey;
 }

@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
   return (
     <div className="header">
-      <a href="/">
-        <img src="mncprecisionlogo.png" />
-      </a>
       <div className="navMenu">
+        <a href="/">
+          <img src="mncprecisionlogo.png" className="company_logo" />
+        </a>
         <div className="navMenuListItem">
           <a href="/" className="navMenuHome">
             Home
