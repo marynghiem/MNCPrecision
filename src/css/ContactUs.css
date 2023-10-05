@@ -1,8 +1,13 @@
 .contactFormContainer {
-  background-color: lightgray;
+  background-color: rgb(232, 228, 228);
   height: 300px;
   width: 500px;
   display: inline-block;
+}
+.whiteBackground {
+  background-color: white;
+  margin: auto;
+  width: 80%;
 }
 .contactSubmitButton {
   background-color: gray;

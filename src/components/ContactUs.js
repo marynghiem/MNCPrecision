@@ -29,65 +29,67 @@ export const ContactUs = () => {
 
   return (
     <div className="contactUsContainer">
-      <h1 className="contactInformationTitle">Contact</h1>
-      <div className="contactInformation">
-        <p>1020 Commercial St., Suite #104A San Jose Ca 95112 (map & directions)</p>
-        <p>Office : (408) 437-9034</p>
-        <p>Fax: (408) 437-3934</p>
-        <p>Cell: (408) 966-5282</p>
-        <p>Email: info@mncprecision.com</p>
-      </div>
-      <h1 className="contactFormTitle">Contact Form</h1>
-      <div className="contactFormContainer">
-        <div className="contactFormNameLabel">Name:</div>
-        <input
-          type="text"
-          className="nameInput"
-          placeholder="Name"
-          maxLength="20"
-          onChange={onNameChange}
-          value={name}
-        ></input>
+      <div className="whiteBackground">
+        <h1 className="contactInformationTitle">Contact</h1>
+        <div className="contactInformation">
+          <p>1020 Commercial St., Suite #104A San Jose Ca 95112 (map & directions)</p>
+          <p>Office : (408) 437-9034</p>
+          <p>Fax: (408) 437-3934</p>
+          <p>Cell: (408) 966-5282</p>
+          <p>Email: info@mncprecision.com</p>
+        </div>
+        <h1 className="contactFormTitle">Contact Form</h1>
+        <div className="contactFormContainer">
+          <div className="contactFormNameLabel">Name:</div>
+          <input
+            type="text"
+            className="nameInput"
+            placeholder="Name"
+            maxLength="20"
+            onChange={onNameChange}
+            value={name}
+          ></input>
 
-        <div className="contactFormEmailLabel">Email:</div>
-        <input
-          type="text"
-          className="nameInput"
-          placeholder="Name"
-          maxLength="20"
-          onChange={onEmailChange}
-          value={email}
-        ></input>
+          <div className="contactFormEmailLabel">Email:</div>
+          <input
+            type="text"
+            className="nameInput"
+            placeholder="Name"
+            maxLength="20"
+            onChange={onEmailChange}
+            value={email}
+          ></input>
 
-        <div className="contactFormAddressLabel">Address:</div>
-        <input
-          type="text"
-          className="nameInput"
-          placeholder="Name"
-          maxLength="20"
-          onChange={onAddressChange}
-          value={address}
-        ></input>
+          <div className="contactFormAddressLabel">Address:</div>
+          <input
+            type="text"
+            className="nameInput"
+            placeholder="Name"
+            maxLength="20"
+            onChange={onAddressChange}
+            value={address}
+          ></input>
 
-        <div className="contactFormPhoneLabel">Phone:</div>
-        <input
-          type="text"
-          className="nameInput"
-          placeholder="Name"
-          maxLength="20"
-          onChange={onPhoneChange}
-          value={phone}
-        ></input>
-        <div className="contactFormMessageLabel">Message:</div>
-        <input
-          type="text"
-          className="nameInput"
-          placeholder="Name"
-          maxLength="20"
-          onChange={onMessageChange}
-          value={message}
-        ></input>
-        <div className="contactSubmitButton">Submit</div>
+          <div className="contactFormPhoneLabel">Phone:</div>
+          <input
+            type="text"
+            className="nameInput"
+            placeholder="Name"
+            maxLength="20"
+            onChange={onPhoneChange}
+            value={phone}
+          ></input>
+          <div className="contactFormMessageLabel">Message:</div>
+          <input
+            type="text"
+            className="nameInput"
+            placeholder="Name"
+            maxLength="20"
+            onChange={onMessageChange}
+            value={message}
+          ></input>
+          <div className="contactSubmitButton">Submit</div>
+        </div>
       </div>
     </div>
   );
