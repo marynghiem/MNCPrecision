@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 export const Equipment = () => {
   return (
-    <div className="EquipmentContainer">
+    <div className="equipmentContainer">
       <div>(1) VF4_50"x20"x25"</div>
       <img src="EquipmentPicture1.jpeg" />
       <div>(3) VF3SS_40"x20"x25"</div>
