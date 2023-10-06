@@ -16,6 +16,7 @@
   width: 50%;
   object-fit: cover;
   height: 302px;
+  filter: grayscale(50%);
 }
 .whiteBackground {
   background-color: white;

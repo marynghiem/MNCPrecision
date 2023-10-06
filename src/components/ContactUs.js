@@ -32,7 +32,7 @@ export const ContactUs = () => {
       <div className="whiteBackground">
         <div className="contactUsImageContainer">
           <img src="EquipmentPicture1.jpeg" alt="" className="contactUsPicture1" />
-          <img src="services4.jpeg" alt="" className="contactUsPicture2" />
+          <img src="HomePageMainImage.jpeg" alt="" className="contactUsPicture2" />
         </div>
         <h1 className="contactInformationTitle">Contact</h1>
         <div className="contactInformation">
