@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 export const Services = () => {
   return (
-    <div className="ServicesContainer">
+    <div className="servicesContainer">
       <div>Services Offered:</div>
       <ul>
         <li>Prototype</li>

@@ -4,6 +4,9 @@
   width: 500px;
   display: inline-block;
 }
+.contactUsImageContainer {
+  padding-top: 79.5px;
+}
 .contactUsPicture1 {
   width: 50%;
   object-fit: cover;
