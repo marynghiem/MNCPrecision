@@ -30,6 +30,10 @@ export const ContactUs = () => {
   return (
     <div className="contactUsContainer">
       <div className="whiteBackground">
+        <div className="contactUsImageContainer">
+          <img src="EquipmentPicture1.jpeg" alt="" className="contactUsPicture1" />
+          <img src="services4.jpeg" alt="" className="contactUsPicture2" />
+        </div>
         <h1 className="contactInformationTitle">Contact</h1>
         <div className="contactInformation">
           <p>1020 Commercial St., Suite #104A San Jose Ca 95112 (map & directions)</p>
