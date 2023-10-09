@@ -34,16 +34,8 @@ export const ContactUs = () => {
           <img src="EquipmentPicture1.jpeg" alt="" className="contactUsPicture1" />
           <img src="HomePageMainImage.jpeg" alt="" className="contactUsPicture2" />
         </div>
-        <h1 className="contactInformationTitle">Contact</h1>
-        <div className="contactInformation">
-          <p>1020 Commercial St., Suite #104A San Jose Ca 95112 (map & directions)</p>
-          <p>Office : (408) 437-9034</p>
-          <p>Fax: (408) 437-3934</p>
-          <p>Cell: (408) 966-5282</p>
-          <p>Email: info@mncprecision.com</p>
-        </div>
-        <h1 className="contactFormTitle">Contact Form</h1>
         <div className="contactFormContainer">
+          <h1 className="contactFormTitle">Contact Form</h1>
           <div className="contactFormNameLabel">Name:</div>
           <input
             type="text"
@@ -93,6 +85,16 @@ export const ContactUs = () => {
             value={message}
           ></input>
           <div className="contactSubmitButton">Submit</div>
+        </div>
+        <div className="contactInformationContainer">
+          <h1 className="contactInformationTitle">Contact</h1>
+          <div className="contactInformation">
+            <p>1020 Commercial St., Suite #104A San Jose Ca 95112 (map & directions)</p>
+            <p>Office : (408) 437-9034</p>
+            <p>Fax: (408) 437-3934</p>
+            <p>Cell: (408) 966-5282</p>
+            <p>Email: info@mncprecision.com</p>
+          </div>
         </div>
       </div>
     </div>
