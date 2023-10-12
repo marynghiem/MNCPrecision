@@ -29,16 +29,19 @@
 
 .contactFormContainer {
   background-color: rgb(232, 228, 228);
-  height: 50vh;
+  height: 80vh;
   width: 30vw;
   display: inline-block;
   margin-right: 5%;
+  text-align: left;
+  padding-left: 2vw;
+  line-height: 1.8;
 }
 
 .contactInformationContainer {
   background-color: rgb(232, 228, 228);
   width: 30vw;
-  height: 50vh;
+  height: 80vh;
   display: inline-block;
   vertical-align: top;
   margin-left: 5%;

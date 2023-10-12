@@ -1,6 +1,7 @@
 import "../css/ContactUs.css";
 import React, { useState } from "react";
 import PlaceIcon from "@mui/icons-material/Place";
+import EmailIcon from "@mui/icons-material/Email";
 
 export const ContactUs = () => {
   const [name, setName] = useState("");
@@ -36,6 +37,7 @@ export const ContactUs = () => {
           <img src="HomePageMainImage.jpeg" alt="" className="contactUsPicture2" />
         </div>
         <div className="contactFormContainer">
+          <EmailIcon sx={{ fontSize: 80 }} />
           <h1 className="contactFormTitle">Contact Form</h1>
           <div className="contactFormNameLabel">Name:</div>
           <input
@@ -51,7 +53,7 @@ export const ContactUs = () => {
           <input
             type="text"
             className="nameInput"
-            placeholder="Name"
+            placeholder="Email"
             maxLength="20"
             onChange={onEmailChange}
             value={email}
@@ -61,7 +63,7 @@ export const ContactUs = () => {
           <input
             type="text"
             className="nameInput"
-            placeholder="Name"
+            placeholder="Address"
             maxLength="20"
             onChange={onAddressChange}
             value={address}
@@ -71,7 +73,7 @@ export const ContactUs = () => {
           <input
             type="text"
             className="nameInput"
-            placeholder="Name"
+            placeholder="Phone Number"
             maxLength="20"
             onChange={onPhoneChange}
             value={phone}
@@ -80,7 +82,7 @@ export const ContactUs = () => {
           <input
             type="text"
             className="nameInput"
-            placeholder="Name"
+            placeholder="Message"
             maxLength="20"
             onChange={onMessageChange}
             value={message}
