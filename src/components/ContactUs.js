@@ -1,5 +1,6 @@
 import "../css/ContactUs.css";
 import React, { useState } from "react";
+import PlaceIcon from "@mui/icons-material/Place";
 
 export const ContactUs = () => {
   const [name, setName] = useState("");
@@ -87,6 +88,7 @@ export const ContactUs = () => {
           <div className="contactSubmitButton">Submit</div>
         </div>
         <div className="contactInformationContainer">
+          <PlaceIcon sx={{ fontSize: 80 }} />
           <h1 className="contactInformationTitle">Contact</h1>
           <div className="contactInformation">
             <p>1020 Commercial St., Suite #104A San Jose Ca 95112 (map & directions)</p>
