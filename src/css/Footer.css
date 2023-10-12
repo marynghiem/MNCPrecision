@@ -1,7 +1,15 @@
 .footerContainer {
   background-color: white;
   margin: auto;
-  height: 10vh;
+  height: 40vh;
   margin-top: 10px;
   width: 80vw;
+}
+
+.footersections {
+  display: inline-block;
+  margin-left: 20px;
+  background-color: gray;
+  height: 35vh;
+  vertical-align: top;
 }
