@@ -45,4 +45,7 @@
   display: inline-block;
   vertical-align: top;
   margin-left: 5%;
+  text-align: left;
+  padding-left: 2vw;
+  line-height: 1.8;
 }
