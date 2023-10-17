@@ -49,3 +49,15 @@
   padding-left: 2vw;
   line-height: 1.8;
 }
+
+.googleMap {
+  padding-bottom: 50%;
+  position: relative;
+}
+.contactMap {
+  width: 90%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}

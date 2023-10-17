@@ -98,6 +98,16 @@ export const ContactUs = () => {
             <p>Fax: (408) 437-3934</p>
             <p>Cell: (408) 966-5282</p>
             <p>Email: info@mncprecision.com</p>
+            <div className="googleMap">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.9995582004526!2d-121.88903132418426!3d37.36618733559119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcc6448b248a7%3A0xf6b383019d5b8ff!2s1020%20Commercial%20St%2C%20San%20Jose%2C%20CA%2095112!5e0!3m2!1sen!2sus!4v1697486098104!5m2!1sen!2sus"
+                style={{ border: 0 }}
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                className="contactMap"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
