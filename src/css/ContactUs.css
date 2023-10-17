@@ -50,12 +50,14 @@
   line-height: 1.8;
 }
 
-.googleMap {
-  padding-bottom: 50%;
-  position: relative;
-}
 .contactMap {
+  padding-bottom: 60%;
+  position: relative;
+  border: 5px solid black;
   width: 90%;
+}
+.googleMap {
+  width: 100%;
   height: 100%;
   left: 0;
   top: 0;
