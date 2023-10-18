@@ -12,4 +12,16 @@
   background-color: gray;
   height: 35vh;
   vertical-align: top;
+  text-align: left;
+}
+
+.iconBorderBottom {
+  border-bottom: 7px solid rgb(228, 57, 57);
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.descriptions,
+.title {
+  line-height: 2;
+  color: white;
 }
