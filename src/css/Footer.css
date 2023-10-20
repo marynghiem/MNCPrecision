@@ -4,15 +4,17 @@
   height: 40vh;
   margin-top: 10px;
   width: 80vw;
+  background-color: rgb(83, 42, 109);
 }
 
 .footersections {
   display: inline-block;
   margin-left: 20px;
-  background-color: gray;
   height: 35vh;
   vertical-align: top;
   text-align: left;
+  width: 15vw;
+  padding: 10px;
 }
 
 .iconBorderBottom {

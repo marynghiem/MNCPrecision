@@ -10,14 +10,14 @@ export const Footer = () => {
       <div className="footerCompanyName footersections">MNC Precision</div>
       <div className="footerAddress footersections">
         <div className="iconBorderBottom">
-          <LocationOnIcon sx={{ fontSize: 80 }} />
+          <LocationOnIcon sx={{ fontSize: 80 }} style={{ color: "white" }} />
         </div>
         <div className="footerAddressTitle title">ADDRESS</div>
         <div className="footerAddressDescription descriptions"> 1020 Commercial St., Suite #104A San Jose Ca 95112</div>
       </div>
       <div className="footerPhoneNumber footersections">
         <div className="iconBorderBottom">
-          <PhoneIphoneIcon sx={{ fontSize: 80 }} />
+          <PhoneIphoneIcon sx={{ fontSize: 80 }} style={{ color: "white" }} />
         </div>
         <div className="footerPhoneNumberTitle title">PHONE NUMBER</div>
         <div className="footerPhoneNumberDescription descriptions">
@@ -26,7 +26,7 @@ export const Footer = () => {
       </div>
       <div className="footerEmail footersections">
         <div className="iconBorderBottom">
-          <EmailIcon sx={{ fontSize: 80 }} />
+          <EmailIcon sx={{ fontSize: 80 }} style={{ color: "white" }} />
         </div>
         <div className="footerEmailTitle title">EMAIL</div>
         <div className="footerEmailDescription descriptions">info@mncprecision.com</div>
