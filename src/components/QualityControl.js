@@ -5,6 +5,10 @@ import { Navbar } from "./Navbar";
 export const QualityControl = () => {
   return (
     <div className="qualityControlContainer">
+      <div className="qualityControlImageContainer">
+        <img src="EquipmentPicture1.jpeg" alt="" className="qualityControlPicture1" />
+        <img src="HomePageMainImage.jpeg" alt="" className="qualityControlPicture2" />
+      </div>
       <h2>Quality Control</h2>
       <div>
         We are committed to meeting the expectations of our customers all of the time by teamwork, innovation and
