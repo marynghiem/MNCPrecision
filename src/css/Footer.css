@@ -27,3 +27,8 @@
   line-height: 2;
   color: white;
 }
+
+.footerCompanyName {
+  color: white;
+  text-align: center;
+}

@@ -40,53 +40,23 @@ export const ContactUs = () => {
           <EmailIcon sx={{ fontSize: 80 }} />
           <h1 className="contactFormTitle">Contact Form</h1>
           <div className="contactFormNameLabel">Name:</div>
-          <input
-            type="text"
-            className="nameInput"
-            placeholder="Name"
-            maxLength="20"
-            onChange={onNameChange}
-            value={name}
-          ></input>
-
+          <input type="text" className="nameInput" maxLength="20" onChange={onNameChange} value={name}></input>
           <div className="contactFormEmailLabel">Email:</div>
-          <input
-            type="text"
-            className="nameInput"
-            placeholder="Email"
-            maxLength="20"
-            onChange={onEmailChange}
-            value={email}
-          ></input>
-
+          <input type="text" className="nameInput" maxLength="20" onChange={onEmailChange} value={email}></input>
           <div className="contactFormAddressLabel">Address:</div>
-          <input
-            type="text"
-            className="nameInput"
-            placeholder="Address"
-            maxLength="20"
-            onChange={onAddressChange}
-            value={address}
-          ></input>
-
+          <input type="text" className="nameInput" maxLength="20" onChange={onAddressChange} value={address}></input>
           <div className="contactFormPhoneLabel">Phone:</div>
-          <input
-            type="text"
-            className="nameInput"
-            placeholder="Phone Number"
-            maxLength="20"
-            onChange={onPhoneChange}
-            value={phone}
-          ></input>
+          <input type="text" className="nameInput" maxLength="20" onChange={onPhoneChange} value={phone}></input>
           <div className="contactFormMessageLabel">Message:</div>
-          <input
+          <textarea
             type="text"
             className="nameInput"
-            placeholder="Message"
             maxLength="20"
             onChange={onMessageChange}
             value={message}
-          ></input>
+            rows="8"
+            cols="40"
+          ></textarea>
           <div className="contactSubmitButton">Submit</div>
         </div>
         <div className="contactInformationContainer">
